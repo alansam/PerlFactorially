@@ -14,7 +14,6 @@ sub factorial {
       $fac *= $f_;
     }
   }
-  printf "\$fac %s\n", ref($fac);
   return $fac;
 }
 
